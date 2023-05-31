@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Histogram Generator</title>
+    <link rel="stylesheet" href="histogram.css">
+</head>
+
+<body>
+    <div class="block">
+        <h1>Histogram Generator</h1>
+        <div class="d-flex">
+            <div class="blue-block">
+                <h2>Lower bounds</h2>
+                <table>
+                    <tr>
+                        <td>Max</td>
+                        <td><input type="text" name="Max" value="100.00" onkeypress="handleKeyPress(event, 'Max')"></td>
+                    </tr>
+                    <tr>
+                        <td>A+</td>
+                        <td><input type="text" name="A+" value="95.00" onkeypress="handleKeyPress(event, 'A+')"></td>
+                    </tr>
+                    <tr>
+                        <td>A</td>
+                        <td><input type="text" name="A" value="90.00" onkeypress="handleKeyPress(event, 'A')"></td>
+                    </tr>
+                    <tr>
+                        <td>A-</td>
+                        <td><input type="text" name="A-" value="85.00" onkeypress="handleKeyPress(event, 'A-')"></td>
+                    </tr>
+                    <tr>
+                        <td>B+</td>
+                        <td><input type="text" name="B+" value="80.00" onkeypress="handleKeyPress(event, 'B+')"></td>
+                    </tr>
+                    <tr>
+                        <td>B</td>
+                        <td><input type="text" name="B" value="75.00" onkeypress="handleKeyPress(event, 'B')"></td>
+                    </tr>
+                    <tr>
+                        <td>B-</td>
+                        <td><input type="text" name="B-" value="70.00" onkeypress="handleKeyPress(event, 'B-')"></td>
+                    </tr>
+                    <tr>
+                        <td>C+</td>
+                        <td><input type="text" name="C+" value="65.00" onkeypress="handleKeyPress(event, 'C+')"></td>
+                    </tr>
+                    <tr>
+                        <td>C</td>
+                        <td><input type="text" name="C" value="60.00" onkeypress="handleKeyPress(event, 'C')"></td>
+                    </tr>
+                    <tr>
+                        <td>C-</td>
+                        <td><input type="text" name="C-" value="55.00" onkeypress="handleKeyPress(event, 'C-')"></td>
+                    </tr>
+                    <tr>
+                        <td>D</td>
+                        <td><input type="text" name="D" value="50.00" onkeypress="handleKeyPress(event, 'D')"></td>
+                    </tr>
+                    <tr>
+                        <td>F</td>
+                        <td><input type="text" name="F" value="0.00" onkeypress="handleKeyPress(event, 'F')"></td>
+                    </tr>
+                </table>
+            </div>
+            <div class="d-flex column">
+                <div class="blue-block">
+                    <h2>Histogram</h2>
+                    <table>
+                        <tr>
+                            <td>A+</td>
+                            <td id="hA+">
+                                <div class="histogram

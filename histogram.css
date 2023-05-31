@@ -1,0 +1,65 @@
+body{
+    background : rgb(255, 255, 255);
+    font-family: serif;
+    padding: 2rem;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.block {
+    box-shadow: 3px 3px 2rem #0008;
+    background-color: #fff;
+    padding: 2rem;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.blue-block {
+     padding: 1rem;
+     background-color: rgb(231,240,244);
+     border: 2px solid #0003;
+     width: 100%;
+}
+
+h2 {
+    color: rgb(224, 42, 18);
+}
+
+input{
+    text-align: right;
+    padding: 0.5rem;
+}
+
+table, tr, td, tbody{
+    width: 90%;
+}
+
+tr{
+    display: flex;
+    margin: 0.3rem;
+}
+
+table td:first-child{
+    width: 100px;
+    align-self: center;
+}
+
+.d-flex{
+    display: flex;
+    gap: 2rem;
+    width: 100%;
+}
+
+.column{
+    flex-direction: column;
+}
+
+.histogram{
+    display: flex;
+    background-color: (23, 64, 135);
+    width: 0;
+    padding: 0.3rem;
+    color:rgb(224, 42, 18);
+}
